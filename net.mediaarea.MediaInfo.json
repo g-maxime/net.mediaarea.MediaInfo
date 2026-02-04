@@ -58,8 +58,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://mediaarea.net/download/source/libmediainfo/25.10/libmediainfo_25.10.tar.xz",
-          "sha256": "ad13d9797b046ce39d0c65a6f81d2aef2429734c21865a6a4c592c7c01f249dd"
+          "url": "https://mediaarea.net/download/source/libmediainfo/26.01/libmediainfo_26.01.tar.xz",
+          "sha256": "bcd3d2cc12cf108ca0fbad07568b303257e72afd8ff73d05cfe6b7aa0e66a1c5"
         }
       ]
     },
@@ -69,8 +69,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://mediaarea.net/download/source/mediainfo/25.10/mediainfo_25.10.tar.xz",
-          "sha256": "366b325101ab1a9a4ee79fbdb8e3dd9e78bcc0a21c0f9b1966313aaed3d33502"
+          "url": "https://mediaarea.net/download/source/mediainfo/26.01/mediainfo_26.01.tar.xz",
+          "sha256": "150656cad88ef4efa4e8299cfc24d9b7a72354576a69349920588acee2cc3c76"
         }
       ]
     },
@@ -81,8 +81,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://mediaarea.net/download/source/mediainfo/25.10/mediainfo_25.10.tar.xz",
-          "sha256": "366b325101ab1a9a4ee79fbdb8e3dd9e78bcc0a21c0f9b1966313aaed3d33502"
+          "url": "https://mediaarea.net/download/source/mediainfo/26.01/mediainfo_26.01.tar.xz",
+          "sha256": "150656cad88ef4efa4e8299cfc24d9b7a72354576a69349920588acee2cc3c76"
         }
       ]
     }
