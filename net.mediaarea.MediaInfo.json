@@ -16,12 +16,28 @@
     "--share=network",
     "--share=ipc"
   ],
+  "cleanup": [
+    "/include",
+    "/lib/pkgconfig",
+    "*.la",
+    "*.a"
+  ],
   "modules": [
     {
       "name": "wxwidgets",
-      "cleanup": [ "/bin", "/include", "/share", "/lib/wx" ],
+      "cleanup": [
+        "/bin",
+        "/share",
+        "/lib/wx"
+      ],
       "rm-configure": true,
-      "config-opts": [ "--enable-shared", "--with-gtk=3", "--enable-html", "--enable-webview", "--enable-webviewwebkit" ],
+      "config-opts": [
+        "--enable-shared",
+        "--with-gtk=3",
+        "--enable-html",
+        "--enable-webview",
+        "--enable-webviewwebkit"
+      ],
       "sources": [
         {
           "type": "archive",
@@ -40,8 +56,10 @@
     {
       "name": "libzen",
       "subdir": "Project/GNU/Library",
-      "config-opts": [ "--enable-shared", "--disable-static" ],
-      "cleanup": [ "/bin", "/include", "/lib/pkgconfig", "/lib/*.la" ],
+      "config-opts": [
+        "--enable-shared",
+        "--disable-static"
+      ],
       "sources": [
         {
           "type": "archive",
@@ -53,8 +71,11 @@
     {
       "name": "libmediainfo",
       "subdir": "Project/GNU/Library",
-      "config-opts": [ "--enable-shared", "--disable-static", "--with-libcurl" ],
-      "cleanup": [ "/bin", "/include", "/lib/pkgconfig", "/lib/*.la" ],
+      "config-opts": [
+        "--enable-shared",
+        "--disable-static",
+        "--with-libcurl"
+      ],
       "sources": [
         {
           "type": "archive",
@@ -77,7 +98,12 @@
     {
       "name": "mediainfo-gui",
       "subdir": "Project/GNU/GUI",
-      "cleanup": [ "share/pixmaps", "/share/apps", "/share/kde4", "/share/kservices5" ],
+      "cleanup": [
+        "/share/pixmaps",
+        "/share/apps",
+        "/share/kde4",
+        "/share/kservices5"
+      ],
       "sources": [
         {
           "type": "archive",
